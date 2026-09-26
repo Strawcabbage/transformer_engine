@@ -17,7 +17,7 @@ struct Tensor {
         int64_t n = 1;
         for (int d = 0; d < rank; ++d) n *= shape[d];
         return n;
-    }
+    };
 
     bool is_contiguous() const;
 
